@@ -6,8 +6,8 @@ import "./login.css";
 
 const Login = () => {
 	const [credentials, setCredentials] = useState({
-		username: undefined,
-		password: undefined,
+		username:username,
+		password:password,
 	});
 
 	const { loading, error, dispatch } = useContext(AuthContext);
